@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "636409718993",
+    "project_id": "chataplication-eeed1",
+    "storage_bucket": "chataplication-eeed1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636409718993:android:8916453d88906886b47df0",
+        "android_client_info": {
+          "package_name": "com.example.jobbys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636409718993-a8pmllf290sncpeajs91tf2o9nmns3m4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX9olkwVpWT3PDmmoognHx6DkUV8eRhbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636409718993-a8pmllf290sncpeajs91tf2o9nmns3m4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

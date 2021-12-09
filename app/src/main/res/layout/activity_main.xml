@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome To Jobby Apps"
+        android:layout_width="214dp"
+        android:layout_height="39dp"
+        android:text="Bienvenido"
+        android:textAlignment="center"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,6 +27,8 @@
         android:layout_height="51dp"
         android:hint="Correo electronico"
         android:inputType="text"
+        android:textColorHint="@color/text"
+        android:textColor="@color/text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.592"
@@ -34,10 +38,13 @@
 
     <EditText
         android:id="@+id/edLpassword"
+
         android:layout_width="298dp"
         android:layout_height="51dp"
         android:hint="Password"
         android:inputType="text"
+        android:textColorHint="@color/text"
+        android:textColor="@color/text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.592"
@@ -49,7 +56,7 @@
         android:id="@+id/btnLogin"
         android:layout_width="170dp"
         android:layout_height="55dp"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/blue"
         android:textColor="@color/white"
         android:text="Login"
         android:textAllCaps="false"
@@ -65,7 +72,7 @@
         android:layout_width="170dp"
         android:layout_height="55dp"
         android:textColor="@color/white"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/purple"
         android:text="Crear cuenta"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -30,6 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:layout_weight="95"
+            android:textColor="@color/white"
             android:background="@drawable/message_box_background"
             android:hint="Escribe un mensaje..."
             android:paddingLeft="20dp"
@@ -48,6 +49,7 @@
             app:cardCornerRadius="50dp">
 
             <ImageView
+                android:backgroundTint="@color/purple"
                 android:id="@+id/sendImage"
                 android:src="@drawable/send"
                 android:layout_gravity="center"

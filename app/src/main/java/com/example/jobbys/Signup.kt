@@ -21,7 +21,6 @@ class Signup : AppCompatActivity() {
         //Initialize Firebase Auth
         this.supportActionBar?.hide()
         auth = Firebase.auth
-
         cerrarSesion()
         abrirChats()
     }

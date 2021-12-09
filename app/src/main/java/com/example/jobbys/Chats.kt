@@ -78,8 +78,7 @@ class Chats : AppCompatActivity() {
                         .setValue(messageObject)
                 }
             messageBox.setText("")
-
         }
-    }
 
+    }
 }

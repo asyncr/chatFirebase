@@ -23,7 +23,7 @@
         android:id="@+id/btnLogout"
         android:layout_width="190dp"
         android:layout_height="55dp"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/exit"
         android:text="Salir"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"

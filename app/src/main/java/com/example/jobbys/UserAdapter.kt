@@ -30,12 +30,11 @@ class UserAdapter(val context:Context, val  userList: ArrayList<User>):
             intent.putExtra("name", currentUser.name)
             intent.putExtra("uid", currentUser.uid)
             context.startActivity(intent)
-            //intent.putExtra("uid",FirebaseAuth.getInstance().currentUser?.uid)
         }
-
     }
 
     override fun getItemCount(): Int {
         return userList.size
     }
+
 }

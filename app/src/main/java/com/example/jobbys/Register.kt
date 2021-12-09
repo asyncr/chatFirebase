@@ -28,6 +28,7 @@ class Register : AppCompatActivity() {
         // Initialize Firebase Auth
         auth = Firebase.auth
         obtenerDatos()
+        this.supportActionBar?.hide()
     }
 
     private fun obtenerDatos(){
@@ -62,12 +63,15 @@ class Register : AppCompatActivity() {
                 if (task.isSuccessful) {
                     // Sign in success, update UI with the signed-in user's information
                     Toast.makeText(this,"Registro Correcto :3",Toast.LENGTH_SHORT).show()
-                    startActivity(Intent(this,Signup::class.java))
+                    finish()
+                    startActivity(Intent(this,registerSuccessfully::class.java))
                     //Agregar usuario a la Base de datos
                     agregarUsuarioBD(nombre,email,auth.currentUser?.uid!!)
                 } else {
                     // If sign in fails, display a message to the user.
                     Toast.makeText(baseContext, "Authentication failed.",
+                        Toast.LENGTH_SHORT).show()
+                    Toast.makeText(baseContext, "Existe una cuenta con ese correo",
                         Toast.LENGTH_SHORT).show()
                 }
             }

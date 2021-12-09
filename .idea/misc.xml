@@ -4,6 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Claudia/Documents/GitHub/chatFirebase/app/src/main/res/drawable/splash_background.xml" value="0.10833333333333334" />
+        <entry key="..\:/Users/Jesus/Desktop/chatFirebase/app/src/main/res/layout/activity_chats.xml" value="0.22" />
+        <entry key="..\:/Users/Jesus/Desktop/chatFirebase/app/src/main/res/layout/activity_conversaciones.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Jesus/Desktop/chatFirebase/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Jesus/Desktop/chatFirebase/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/Jesus/Desktop/chatFirebase/app/src/main/res/layout/activity_register_successfully.xml" value="0.25" />
+        <entry key="..\:/Users/Jesus/Desktop/chatFirebase/app/src/main/res/layout/activity_signup.xml" value="0.22" />
+        <entry key="..\:/Users/Jesus/Desktop/chatFirebase/app/src/main/res/layout/activity_userchat.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Jesus/Desktop/chatFirebase/app/src/main/res/layout/back.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Jesus/Desktop/chatFirebase/app/src/main/res/layout/sent.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Jesus/Desktop/jobbys/app/src/main/res/drawable/edt_back.xml" value="0.2203125" />
         <entry key="..\:/Users/Jesus/Desktop/jobbys/app/src/main/res/drawable/edt_backs.xml" value="0.2203125" />
         <entry key="..\:/Users/Jesus/Desktop/jobbys/app/src/main/res/drawable/message_box_background.xml" value="0.14" />

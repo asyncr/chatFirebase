@@ -8,8 +8,9 @@
         android:id="@+id/txt"
         android:layout_width="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="5dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
         android:layout_height="wrap_content">
 
         <TextView
@@ -19,6 +20,7 @@
             android:background="@drawable/edt_back"
             android:backgroundTint="#317FFE"
             android:padding="10dp"
+            android:paddingRight="15dp"
             android:text="Esto es un mensaje"
             android:textColor="@color/white"
             android:textSize="16dp" />
